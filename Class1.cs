@@ -27,7 +27,7 @@ public void calcolaArea()
         public void calcolaPerimetro()
         {
             Console.WriteLine("Il perimetro è");
-            calcolaPerimetro = baseRettangolo + altezzaRettangolo;
+            calcolaPerimetro = (baseRettangolo + altezzaRettangolo)*2;
         }
         public void StampaRettangolo()
         {
